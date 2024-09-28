@@ -1,0 +1,154 @@
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 150px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header-contact .btn {
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #f39c12;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.header-contact .btn.secondary-btn {
+    background-color: #2980b9;
+}
+
+/* Trans Section */
+.trans {
+    background-image: url('back.avif'); 
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.trans h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.trans p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.tarns .btn {
+    margin: 10px;
+}
+
+
+/* Key Features Section */
+.key-features {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.key-features .feature {
+    text-align: center;
+    padding: 20px;
+}
+
+.key-features h3 {
+    color: #2980b9;
+    margin-bottom: 10px;
+}
+
+/* About Us Section */
+.about-us {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about-us h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about-us p {
+    margin-bottom: 30px;
+}
+
+/* Services Section */
+.services {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.services .service {
+    text-align: center;
+    padding: 20px;
+}
+
+.services h3 {
+    margin-top: 20px;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 10px;
+}
+
+footer ul li {
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
